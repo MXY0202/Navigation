@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogDinBen</class>
+ <widget class="QDialog" name="DialogDinBen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>818</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label2">
+   <property name="geometry">
+    <rect>
+     <x>473</x>
+     <y>280</y>
+     <width>291</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>330</y>
+     <width>141</width>
+     <height>166</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QPushButton" name="student5Btn">
+      <property name="text">
+       <string>学生五层</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="student4Btn">
+      <property name="text">
+       <string>学生四层</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="student3Btn">
+      <property name="text">
+       <string>学生三层</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="student2Btn">
+      <property name="text">
+       <string>学生二层</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="student1Btn">
+      <property name="text">
+       <string>学生一层</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="randBtn">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>540</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>随机选择</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>141</width>
+     <height>166</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="teacher5Btn">
+      <property name="text">
+       <string>教工五层</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="teacher4Btn">
+      <property name="text">
+       <string>教工四层</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="teacher3Btn">
+      <property name="text">
+       <string>教工三层</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="teacher2Btn">
+      <property name="text">
+       <string>教工二层</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="teacher1Btn">
+      <property name="text">
+       <string>教工一层</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>550</y>
+     <width>341</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label1">
+   <property name="geometry">
+    <rect>
+     <x>473</x>
+     <y>50</y>
+     <width>291</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>351</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>510</y>
+     <width>241</width>
+     <height>91</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

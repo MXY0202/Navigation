@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NaviWindow</class>
+ <widget class="QWidget" name="NaviWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1925</width>
+    <height>1014</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 18pt &quot;楷体&quot;;</string>
+  </property>
+  <widget class="QPushButton" name="singlePointBtn">
+   <property name="geometry">
+    <rect>
+     <x>1450</x>
+     <y>200</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>单点路径导航</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="multiPointBtn">
+   <property name="geometry">
+    <rect>
+     <x>1700</x>
+     <y>200</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>途径多点导航</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdTime">
+   <property name="geometry">
+    <rect>
+     <x>1530</x>
+     <y>70</y>
+     <width>191</width>
+     <height>81</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>1430</x>
+     <y>730</y>
+     <width>521</width>
+     <height>321</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="searchByScope">
+   <property name="geometry">
+    <rect>
+     <x>1610</x>
+     <y>490</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>1440</x>
+     <y>490</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>按范围查询</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="goToClass">
+   <property name="geometry">
+    <rect>
+     <x>1610</x>
+     <y>430</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>1440</x>
+     <y>430</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>去上课</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="walkCheck">
+   <property name="geometry">
+    <rect>
+     <x>1620</x>
+     <y>600</y>
+     <width>135</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>步行</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="bikeCheck">
+   <property name="geometry">
+    <rect>
+     <x>1770</x>
+     <y>600</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>自行车</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="minDisCheck">
+   <property name="geometry">
+    <rect>
+     <x>1620</x>
+     <y>650</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>最短距离</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="minTimeCheck">
+   <property name="geometry">
+    <rect>
+     <x>1770</x>
+     <y>650</y>
+     <width>180</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>最短时间</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>1430</x>
+     <y>600</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>出行方式选择</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>1430</x>
+     <y>650</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>出行策略选择</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dinBtn">
+   <property name="geometry">
+    <rect>
+     <x>1450</x>
+     <y>280</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>食堂导航</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="libBtn">
+   <property name="geometry">
+    <rect>
+     <x>1700</x>
+     <y>280</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>图书馆查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="searchByName">
+   <property name="geometry">
+    <rect>
+     <x>1450</x>
+     <y>357</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>建筑物查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="newStudents">
+   <property name="geometry">
+    <rect>
+     <x>1702</x>
+     <y>360</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>新生导航</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

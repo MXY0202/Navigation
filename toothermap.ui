@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ToOtherMap</class>
+ <widget class="QDialog" name="ToOtherMap">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>455</width>
+    <height>346</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 18pt &quot;楷体&quot;;</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>411</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请选择前往另一个校区的方式：</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="shoolBusBtn">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>150</y>
+     <width>115</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>校车</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="busBtn">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>210</y>
+     <width>115</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>公交车</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="confirmBtn">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>280</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

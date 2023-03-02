@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pictures/bike.jpg</file>
+        <file>pictures/map2.jpg</file>
+        <file>pictures/person.jpg</file>
+        <file>text/buildingTable.txt</file>
+        <file>text/map.txt</file>
+        <file>text/shoolBusTable.txt</file>
+        <file>text/classTimeTable.txt</file>
+        <file>pictures/badge.jpg</file>
+        <file>pictures/map1.jpg</file>
+        <file>text/building.txt</file>
+    </qresource>
+</RCC>
